@@ -131,7 +131,10 @@ footer img {
 	object-position: 0 -50px;
 }
 
-/* Some extra stuff for the stretch goals */
+/* Some extra stuff for the stretch goals
+	 also, as part of the goals I added a
+	 favicon, and it's now visitable at:
+	 https://xenodochial-varahamihira-d283f5.netlify.app/ */
 
 @keyframes hoveron {
 	from {color: white;}
