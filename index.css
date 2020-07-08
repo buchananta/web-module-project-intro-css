@@ -23,9 +23,19 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	font-family: 'Roboto Mono', monospace;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+
+
+nav, section {
+	margin: 0 8%;
 }
 
 a { text-decoration: none }
+img {max-width: 100%}
 
 nav .plan {
 	background-color: #FF764E;
@@ -36,6 +46,35 @@ nav .learn {
 nav .volunteer {
 	background-color: #FFCD69;
 }
+nav a {
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	display: inline-block;
+	padding: .5%;
+	width: 13%;
+	margin: 9%;
+	vertical-align: middle;
+	border-radius: 20px;
+}
+
+.header {
+
+}
+
+.header img {
+	margin: 0 3%;
+	border-radius: 100%;
+	display: inline-block;
+	width: 25%;
+}
+
+.title {
+	margin: 10% 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
 
 h1 {
 	font-family: 'Chelsea Market', cursive;
