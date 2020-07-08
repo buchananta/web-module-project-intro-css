@@ -22,4 +22,34 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Roboto Mono', monospace;
+}
+
+a { text-decoration: none }
+
+nav .plan {
+	background-color: #FF764E;
+}
+nav .learn {
+	background-color: #5ED3EB;
+}
+nav .volunteer {
+	background-color: #FFCD69;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.section-one {
+	background-color: #DDB9A3;
+}
+
+
+footer {
+	background-color: #F9E7DC;
 }
