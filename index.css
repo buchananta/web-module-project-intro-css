@@ -130,3 +130,33 @@ footer img {
 	object-fit: cover;
 	object-position: 0 -50px;
 }
+
+/* Some extra stuff for the stretch goals */
+
+@keyframes hoveron {
+	from {color: white;}
+	50% {color: pink;}
+	to {color: black;}
+}
+
+@keyframes hoveroff {
+	from {color: black;}
+	to {color: white;}
+}
+
+@keyframes visible {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+a:hover {
+	animation: hoveron 1s forwards;
+}
+
+a {
+	animation: hoveroff 1s forwards;
+}
+
+.header {
+	position: relative;
+	animation: visible 10s forwards;
+}
