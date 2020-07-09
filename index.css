@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Roboto Mono', monospace;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+html {
+	font-size: 62.5%;
+}
+h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 1.4rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+
+p.narrow {
+	padding: 0 20%;
+}
+
+nav, section {
+	margin: 0 8%;
+}
+
+nav .plan {
+	background-color: #FF764E;
+}
+nav .learn {
+	background-color: #5ED3EB;
+}
+nav .volunteer {
+	background-color: #FFCD69;
+}
+nav a {
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	display: inline-block;
+	padding: .5%;
+	width: 13%;
+	margin: 9%;
+	vertical-align: middle;
+	border-radius: 20px;
+}
+
+.header img {
+	margin: 0 3%;
+	border-radius: 100%;
+	display: inline-block;
+	width: 25%;
+}
+
+.title {
+	margin: 4% auto;
+	width: 67%;
+	display: inline-block;
+	vertical-align: top;
+}
+.title p {
+	margin: 1rem;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 4rem;
+	width: 100%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.section-one {
+	text-align: center;
+	background-color: #DDB9A3;
+	width: 70%;
+	margin: 1% auto;
+}
+
+.section-one p {
+	color: white;
+}
+
+.section-two p {
+	width: 40%;
+	margin: 0 auto 6rem;
+}
+.section-two img {
+	width: 25%;
+	margin: 0 37.49%;
+	vertical-align: center;
+	text-align: center;
+}
+
+footer {
+	background-color: #F9E7DC;
+}
+
+footer img {
+	padding: 0;
+	margin: 0;
+	height: 25vh;
+	width: 100%;
+	object-fit: cover;
+	object-position: 0 -50px;
+}
+
+/* Some extra stuff for the stretch goals
+	 also, as part of the goals I added a
+	 favicon, and it's now visitable at:
+	 https://xenodochial-varahamihira-d283f5.netlify.app/ */
+
+@keyframes hoveron {
+	from {color: white;}
+	50% {color: pink;}
+	to {color: black;}
+}
+
+@keyframes hoveroff {
+	from {color: black;}
+	to {color: white;}
+}
+
+@keyframes visible {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+a:hover {
+	animation: hoveron 1s forwards;
+}
+
+a {
+	animation: hoveroff 1s forwards;
+}
+
+.header {
+	position: relative;
+	animation: visible 10s forwards;
+}
